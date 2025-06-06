@@ -327,30 +327,30 @@ p {
         margin-bottom: 2.5rem;
     }
 
-#about {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between; /* push h2 left, p right */
-    align-items: center;            /* vertically center if taller */
-    padding: 0 8rem;
-    width: 100%;
-    box-sizing: border-box;         /* only on this container */
-}
+    #about {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between; /* push h2 left, p right */
+        align-items: center;            /* vertically center if taller */
+        padding: 0 8rem;
+        width: 100%;
+        box-sizing: border-box;         /* only on this container */
+    }
 
-#about h2,
-#about p {
-    margin: 0;                      /* remove default margins */
-    max-width: 45%;                 /* control width so they fit side by side */
-    text-align: left;
-}
+    #about h2,
+    #about p {
+        margin: 0;                      /* remove default margins */
+        max-width: 45%;                 /* control width so they fit side by side */
+        text-align: left;
+    }
 
-#about h2 {
-    margin-left: 20%;
-}
+    #about h2 {
+        margin-left: 20%;
+    }
 
-#about p {
-    margin-right: 4rem; 
-}
+    #about p {
+        margin-right: 4rem; 
+    }
 
     nav {
         font-size: 2rem;
