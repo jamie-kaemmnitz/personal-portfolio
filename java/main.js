@@ -21,20 +21,4 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 
   sections.forEach(section => observer.observe(section));
-
-  document.querySelectorAll('.project-image-wrapper').forEach(wrapper => {
-    wrapper.addEventListener('mouseenter', () => {
-      console.log('mouseenter:', wrapper);
-      wrapper.classList.add('hovered');
-    });
-    wrapper.addEventListener('mouseleave', () => {
-      console.log('mouseleave:', wrapper);
-      wrapper.classList.remove('hovered');
-    });
-  });
-});
-
-document.querySelectorAll('.project-image-wrapper').forEach(wrapper => {
-  wrapper.addEventListener('mouseenter', () => console.log('mouseenter fired'));
-  wrapper.addEventListener('mouseleave', () => console.log('mouseleave fired'));
 });
